@@ -2,7 +2,7 @@
 ##Introduction
 This program is used with the Can Analyzer function provided by the [EscorpioEvo16-Dashboard](https://github.com/DavideMalvezzi/EscorpioEvo16-Dashboard).
 The software connectcs directly to the Dashboard serial port or bluetooth module and parses all the received can packets and shows them.
-The packets visualization could be chronologically (all the packets are shown) or uniquely (only the last packet is shown for each can id).
+The packets visualization could be chronologically (all the packets are shown) or uniquely (only the last packet is shown for each can id). Its also possible to filter the shown packets by the can id with the filter interface.
 Also is possible to send custom packets through the TX interface.
 All the channels information are saved and loaded from a local SQLite database.
 
